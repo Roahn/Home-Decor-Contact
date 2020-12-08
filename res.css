@@ -124,3 +124,65 @@ h3{
         left: 118px;
     }
 }
+
+
+
+#c1 ,#c2 ,#c3 ,#c4{
+
+    font-size: 35px;
+    color: white;
+}
+
+#c1{
+
+animation: c1 1.5s infinite alternate  ;
+
+}
+#c2{
+
+    animation: c2 1.5s infinite alternate;
+
+    }
+#c3{
+
+    animation: c3 1.5s infinite alternate ;
+  
+    }
+#c4{
+
+    animation: c4 1.5s infinite alternate;
+
+    }
+
+@keyframes c1{
+
+0% {color: red; font-size: large;}
+50%{color: yellow;}
+
+100%{color:green;}
+}
+@keyframes c2{
+
+  
+    0%{color: yellow;}
+    50%{color:green; font-size: large;}
+    
+    100% {color: red;}
+}
+@keyframes c3{
+
+
+    0%{color:green;}
+    50% {color: red;}
+    100%{color: yellow;font-size: large;}
+}
+@keyframes c4{
+
+
+
+
+   
+    0% {color: red;font-size: large;}
+    50%{color: yellow;}
+    100%{color:green;}
+}
